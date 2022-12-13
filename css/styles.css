@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  border: 2px solid black;
+}
+
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo {
+  width: 10vw;
+  padding-left: 10px;
+}
+
+.nav-menu {
+  width: 70vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+}
+
+li a {
+  color: black;
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-size: 25px;
+  font-family: "Rubik Distressed", cursive;
+}
+li a:hover {
+  border: 2px black solid;
+  transition: 2s;
+  background-color: white;
+  color: black;
+}
+
+.main-conteiner {
+  background-image: url(../../assets/img/portada.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,15 @@
+@import "./base/reset";
+
+@import "./utils/variables";
+@import "./utils/media";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./componentes/tarjetas";
+
+@import "./pages/index";
+@import "./pages/turnos";
+@import "./pages/productos";
+@import "./pages/ingresar";
+@import "./pages/ubicacion";
